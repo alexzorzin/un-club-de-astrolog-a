@@ -5,7 +5,7 @@
   color: inherit;
   text-decoration: none;
   list-style: none;
-
+  font-family: 'CaviarDreams';
 }
 
 @font-face {
@@ -19,12 +19,21 @@
   src: url(./fonts/CaviarDreams_Bold.ttf);
 }
 
+header {
+  position: fixed;
+  width: 100%;
+  
+  z-index: 999 !important;
+  
+}
 .main-nav {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   color: #000;
-  background: rgba(234, 234, 239, 255);
+  min-height: 15vh;
+  background: rgba(255, 255, 255, 0.9);
 }
 
 .logo {
@@ -32,6 +41,24 @@
   height: 8.5vh;
 }
 
+.contacto__btn {
+  padding-top: 7%;
+  padding-bottom: 7%;
+  
+  background-color: rgba(123, 97, 255, 0.27);
+  border: rgba(123, 97, 255, 1) solid 3px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  font-family: 'CaviarDreamsBold';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+
+
+
+
+}
 .nav-links {
   font-family: 'CaviarDreamsBold';
   font-weight: 700;
@@ -48,7 +75,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background: rgba(234, 234, 239, 255);
+  background: rgba(255, 255, 255, 0.9);
   transform: translateX(100%);
   transition: transform 1s ease;
 }
@@ -115,11 +142,54 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background: #005582;
+    background: rgba(255, 255, 255, 0.9);
     transform: translateX(100%);
     transition: transform 1s ease;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
   }
+}
+ /* MODAL */
+.modal__h3 {
+  font-weight: 700;
+  font-family: 'CaviarDreamsBold';
+}
+.modal__boton {
+  background: rgba(123, 97, 255, 0.57);
+  border: 3px solid #7B61FF;
+  padding: 10px 20px 10px 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  color: black;
+  font-family: 'CaviarDreamsBold';
+ 
+}
+
+.modal-body {
+  background-color:rgba(255, 255, 255, 0.1) !important ;
+}
+.modal__boton:hover {
+  background-color: rgba(203, 170, 242, 255);
+  
+}
+.modal__input {
+  margin-top:2em ;
+}
+
+input:placeholder-shown {
+  color: black;
+  font-size: 1.5em;
+  font-family: 'CaviarDreamsBold';
+  background-color: rgba(203, 196, 242, 255);
+}
+
+ .mensaje-enviado {
+  color:  black;
+  display: block;
+}
+
+.mensaje-enviar {
+  color:  #000;
+  display: none;
 }
 
 .full-page {
@@ -142,7 +212,7 @@ a{
   width: 33vh;
   height: 4.5vh;
   left: 30vh;
-  font-family: 'Caviar Dreams';
+  font-family: 'CaviarDreams';
   font-style: normal;
   font-weight: 700;
   font-size: 2.6vh;
