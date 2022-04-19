@@ -124,7 +124,7 @@ a{
 
 .full-page {
   background: linear-gradient(rgba(5, 7, 12, 0.459),rgba(5,7,12,0.459)),
-  url(/img/background/galaxy-scene.jpg);
+  url(./img/background/galaxy-scene.jpg);
 	background-size: cover;
 }
 
