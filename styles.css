@@ -5,13 +5,12 @@
   color: inherit;
   text-decoration: none;
   list-style: none;
-  font-family: 'CaviarDreams';
+  font-family: "CaviarDreams";
 }
 
 @font-face {
   font-family: CaviarDreams;
   src: url(./fonts/CaviarDreams.ttf);
-
 }
 
 @font-face {
@@ -19,12 +18,12 @@
   src: url(./fonts/CaviarDreams_Bold.ttf);
 }
 
+/* NAV HEADER */
 header {
   position: fixed;
   width: 100%;
 
   z-index: 999 !important;
-
 }
 
 .main-nav {
@@ -50,19 +49,15 @@ header {
   border: rgba(123, 97, 255, 1) solid 3px;
   box-sizing: border-box;
   border-radius: 15px;
-  font-family: 'CaviarDreamsBold';
+  font-family: "CaviarDreamsBold";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-
-
-
-
 }
 
 .nav-links {
-  font-family: 'CaviarDreamsBold';
+  font-family: "CaviarDreamsBold";
   font-weight: 700;
   z-index: 100;
   line-height: 30px;
@@ -86,7 +81,6 @@ header {
   padding-left: 2em;
   padding-top: 1.9em;
   padding-bottom: 1.5em;
-
 }
 
 ol,
@@ -103,7 +97,13 @@ a {
   display: block;
   padding: 0.5rem;
   cursor: pointer;
-  background-color: rgba(203, 196, 242, 255);
+  border-radius: 15px;
+  margin-right: 3vh;
+}
+
+.burger:hover {
+  background-color: rgba(123, 97, 255, 0.27);
+  transition: 1s;
 }
 
 .line {
@@ -155,18 +155,17 @@ a {
 /* MODAL */
 .modal__h3 {
   font-weight: 700;
-  font-family: 'CaviarDreamsBold';
+  font-family: "CaviarDreamsBold";
 }
 
 .modal__boton {
   background: rgba(123, 97, 255, 0.57);
-  border: 3px solid #7B61FF;
+  border: 3px solid #7b61ff;
   padding: 10px 20px 10px 20px;
   box-sizing: border-box;
   border-radius: 20px;
   color: black;
-  font-family: 'CaviarDreamsBold';
-
+  font-family: "CaviarDreamsBold";
 }
 
 .modal-body {
@@ -175,7 +174,6 @@ a {
 
 .modal__boton:hover {
   background-color: rgba(203, 170, 242, 255);
-
 }
 
 .modal__input {
@@ -185,7 +183,7 @@ a {
 input:placeholder-shown {
   color: black;
   font-size: 1.5em;
-  font-family: 'CaviarDreamsBold';
+  font-family: "CaviarDreamsBold";
   background-color: rgba(203, 196, 242, 255);
 }
 
@@ -205,10 +203,8 @@ input:placeholder-shown {
   background-size: cover;
 }
 
-
-
 .border-headers {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 0px 0px 30px 30px;
   padding-left: 3vh;
 }
@@ -218,7 +214,7 @@ input:placeholder-shown {
   width: 33vh;
   height: 4.5vh;
   left: 30vh;
-  font-family: 'CaviarDreams';
+  font-family: "CaviarDreams";
   font-style: normal;
   font-weight: 700;
   font-size: 2.6vh;
@@ -229,9 +225,11 @@ input:placeholder-shown {
   color: #000000;
 }
 
-.carousel-item {
+.carousel-item{
   height: 550px !important;
+  background-color: rgba(0, 0, 0, 0.2);
 }
+
 
 .masthead {
   position: relative;
@@ -246,11 +244,11 @@ input:placeholder-shown {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 100vh;
 }
 
@@ -279,47 +277,47 @@ input:placeholder-shown {
   font-size: 2rem;
 }
 
-.masthead-text{
-width: 200vh;
-height: 165px;
-margin-left: 18vh;
-margin-top: 8vh;
-font-style: normal;
-font-weight: 700;
-font-size: 28px;
-line-height: 40px;
+.masthead-text {
+  width: 200vh;
+  height: 165px;
+  margin-left: 18vh;
+  margin-top: 8vh;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
 
-display: flex;
-align-items: center;
-text-align: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
-.studios{
+.studios {
   height: 100vh;
 }
 
-.about-us{
+.about-us {
   margin-top: 18vh;
   height: 88vh;
 }
 
-.margin-header{
-  margin-top: 16vh;
+.margin-header {
+  margin-top: -5.5vh;
 }
 
-.margin-header-2{
-  margin-top: 16vh;
+.margin-header-2 {
+  margin-top: -5.5vh;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   width: 10px;
-  color: #7B61FF;
+  color: #7b61ff;
 }
 
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
   background: rgba(119, 0, 255, 0.2);
   border-radius: 10px;
-  border: 2px solid #7B61FF;
+  border: 2px solid #7b61ff;
 }
 
 .text-header-2 {
@@ -327,7 +325,7 @@ body::-webkit-scrollbar-thumb{
   width: 16vh;
   height: 4.5vh;
   left: 30vh;
-  font-family: 'CaviarDreams';
+  font-family: "CaviarDreams";
   font-style: normal;
   font-weight: 700;
   font-size: 2.6vh;
@@ -338,6 +336,85 @@ body::-webkit-scrollbar-thumb{
   color: #000000;
 }
 
-.img-flor{
+.img-flor {
   border-radius: 15px;
+}
+
+/* FAQ */
+.faq__style {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: fit-content;
+}
+
+.faq__h4 {
+  font-family: "CaviarDreamsBold";
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  display: flex;
+  align-items: center;
+}
+
+.faq__header {
+  position: relative;
+  width: 25vh;
+  height: 7vh;
+  z-index: 1;
+  font-family: "CaviarDreams";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4vh;
+  line-height: 3.2vh;
+
+  color: #000000;
+}
+
+.faq__border-headers {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 0px 0px 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq__container {
+  margin-top: 18vh !important;
+  margin-left: 15vh;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp {
+  position: fixed;
+  width: 48px;
+  height: 48px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  -webkit-box-shadow: 0 2.4px 9.6px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2.4px 9.6px 0 rgba(0, 0, 0, 0.15);
+  z-index: 100;
+}
+
+.whatsapp:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff;
+}
+
+footer{
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.footer-text{
+  z-index: 100;
+}
+
+.footer-logo{
+  width: 176px;
 }
