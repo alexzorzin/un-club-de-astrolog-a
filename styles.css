@@ -1,343 +1,376 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  color: inherit;
-  text-decoration: none;
-  list-style: none;
-  font-family: 'CaviarDreams';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+    font-family: "CaviarDreams";
 }
 
 @font-face {
-  font-family: CaviarDreams;
-  src: url(./fonts/CaviarDreams.ttf);
-
+    font-family: CaviarDreams;
+    src: url(./fonts/CaviarDreams.ttf);
 }
 
 @font-face {
-  font-family: CaviarDreamsBold;
-  src: url(./fonts/CaviarDreams_Bold.ttf);
+    font-family: CaviarDreamsBold;
+    src: url(./fonts/CaviarDreams_Bold.ttf);
 }
-
+/* NAV HEADER */
 header {
-  position: fixed;
-  width: 100%;
+    position: fixed;
+    width: 100%;
 
-  z-index: 999 !important;
-
+    z-index: 999 !important;
 }
 
 .main-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  color: #000;
-  min-height: 10.5vh;
-  background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    min-height: 10.5vh;
+    background: rgba(255, 255, 255, 0.9);
 }
 
 .logo {
-  display: flex;
-  height: 8.5vh;
+    display: flex;
+    height: 8.5vh;
 }
 
 .contacto__btn {
-  padding-top: 7%;
-  padding-bottom: 7%;
+    padding-top: 7%;
+    padding-bottom: 7%;
 
-  background-color: rgba(123, 97, 255, 0.27);
-  border: rgba(123, 97, 255, 1) solid 3px;
-  box-sizing: border-box;
-  border-radius: 15px;
-  font-family: 'CaviarDreamsBold';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-
-
-
-
+    background-color: rgba(123, 97, 255, 0.27);
+    border: rgba(123, 97, 255, 1) solid 3px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-family: "CaviarDreamsBold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .nav-links {
-  font-family: 'CaviarDreamsBold';
-  font-weight: 700;
-  z-index: 100;
-  line-height: 30px;
-  letter-spacing: 0em;
-  text-align: left;
-  font-size: 2.4vh;
-  position: fixed;
-  top: 10.55vh;
-  right: 0;
-  height: 557px;
-  width: 15%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  background: rgba(255, 255, 255, 0.9);
-  transform: translateX(100%);
-  transition: transform 1s ease;
-}
-
-.nav-links li {
-  padding-left: 2em;
-  padding-top: 1.9em;
-  padding-bottom: 1.5em;
-
-}
-
-ol,
-ul {
-  padding-left: 0px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-.burger {
-  display: block;
-  padding: 0.5rem;
-  cursor: pointer;
-  background-color: rgba(203, 196, 242, 255);
-}
-
-.line {
-  height: 2px;
-  width: 35px;
-  margin: 0.5rem 0;
-
-  background: #000;
-  transition: transform 0.75s ease, opacity 0.75s ease;
-}
-
-@media screen and (max-width: 800px) {
-  .nav-links {
-    width: 60%;
-  }
-}
-
-.main-nav.show .nav-links {
-  transform: translateX(0%);
-}
-
-@media screen and (max-width: 800px) {
-  .nav-links {
-    width: 60%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .burger {
-    display: block;
-  }
-
-  .nav-links {
+    font-family: "CaviarDreamsBold";
+    font-weight: 700;
+    z-index: 100;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-size: 2.4vh;
     position: fixed;
-    top: 8vh;
+    top: 10.55vh;
     right: 0;
-    height: 92vh;
-    width: 50%;
+    height: 557px;
+    width: 15%;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     background: rgba(255, 255, 255, 0.9);
     transform: translateX(100%);
     transition: transform 1s ease;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
-  }
+}
+
+.nav-links li {
+    padding-left: 2em;
+    padding-top: 1.9em;
+    padding-bottom: 1.5em;
+}
+
+ol,
+ul {
+    padding-left: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.burger {
+    display: block;
+    padding: 0.5rem;
+    cursor: pointer;
+    background-color: rgba(203, 196, 242, 255);
+}
+
+.line {
+    height: 2px;
+    width: 35px;
+    margin: 0.5rem 0;
+
+    background: #000;
+    transition: transform 0.75s ease, opacity 0.75s ease;
+}
+
+@media screen and (max-width: 800px) {
+    .nav-links {
+        width: 60%;
+    }
+}
+
+.main-nav.show .nav-links {
+    transform: translateX(0%);
+}
+
+@media screen and (max-width: 800px) {
+    .nav-links {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .burger {
+        display: block;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 8vh;
+        right: 0;
+        height: 92vh;
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background: rgba(255, 255, 255, 0.9);
+        transform: translateX(100%);
+        transition: transform 1s ease;
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+    }
 }
 
 /* MODAL */
 .modal__h3 {
-  font-weight: 700;
-  font-family: 'CaviarDreamsBold';
+    font-weight: 700;
+    font-family: "CaviarDreamsBold";
 }
 
 .modal__boton {
-  background: rgba(123, 97, 255, 0.57);
-  border: 3px solid #7B61FF;
-  padding: 10px 20px 10px 20px;
-  box-sizing: border-box;
-  border-radius: 20px;
-  color: black;
-  font-family: 'CaviarDreamsBold';
-
+    background: rgba(123, 97, 255, 0.57);
+    border: 3px solid #7b61ff;
+    padding: 10px 20px 10px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: black;
+    font-family: "CaviarDreamsBold";
 }
 
 .modal-body {
-  background-color: rgba(255, 255, 255, 0.1) !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 .modal__boton:hover {
-  background-color: rgba(203, 170, 242, 255);
-
+    background-color: rgba(203, 170, 242, 255);
 }
 
 .modal__input {
-  margin-top: 2em;
+    margin-top: 2em;
 }
 
 input:placeholder-shown {
-  color: black;
-  font-size: 1.5em;
-  font-family: 'CaviarDreamsBold';
-  background-color: rgba(203, 196, 242, 255);
+    color: black;
+    font-size: 1.5em;
+    font-family: "CaviarDreamsBold";
+    background-color: rgba(203, 196, 242, 255);
 }
 
 .mensaje-enviado {
-  color: black;
-  display: block;
+    color: black;
+    display: block;
 }
 
 .mensaje-enviar {
-  color: #000;
-  display: none;
+    color: #000;
+    display: none;
 }
 
 .full-page {
-  background: linear-gradient(rgba(5, 7, 12, 0), rgba(5, 7, 12, 0)),
-    url(./img/background/FONDO.png);
-  background-size: cover;
+    background: linear-gradient(rgba(5, 7, 12, 0), rgba(5, 7, 12, 0)),
+        url(./img/background/FONDO.png);
+    background-size: cover;
 }
 
-
-
 .border-headers {
-  background-color: white;
-  border-radius: 0px 0px 30px 30px;
-  padding-left: 3vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 0px 0px 30px 30px;
+    padding-left: 3vh;
 }
 
 .text-headers {
-  position: relative;
-  width: 33vh;
-  height: 4.5vh;
-  left: 30vh;
-  font-family: 'CaviarDreams';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2.6vh;
-  line-height: 3.2vh;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #000000;
+    position: relative;
+    width: 33vh;
+    height: 4.5vh;
+    left: 30vh;
+    font-family: "CaviarDreams";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.6vh;
+    line-height: 3.2vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
 }
 
 .carousel-item {
-  height: 550px !important;
+    height: 550px !important;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .masthead {
-  position: relative;
-  overflow: hidden;
-  padding-top: 15rem;
-  padding-bottom: 10rem;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100vh;
+    position: relative;
+    overflow: hidden;
+    padding-top: 15rem;
+    padding-bottom: 10rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .masthead .masthead-content {
-  z-index: 1;
-  position: relative;
+    z-index: 1;
+    position: relative;
 }
 
 .masthead .masthead-content .masthead-heading {
-  font-size: 4rem;
+    font-size: 4rem;
 }
 
 .masthead .masthead-content .masthead-heading-home {
-  font-size: 4rem;
+    font-size: 4rem;
 }
 
 .masthead .masthead-content .masthead-heading-av {
-  font-size: 4rem;
+    font-size: 4rem;
 }
 
 .masthead .masthead-content .masthead-heading-of {
-  font-size: 4rem;
+    font-size: 4rem;
 }
 
 .masthead .masthead-content .masthead-subheading {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
-.masthead-text{
-width: 200vh;
-height: 165px;
-margin-left: 18vh;
-margin-top: 8vh;
-font-style: normal;
-font-weight: 700;
-font-size: 28px;
-line-height: 40px;
+.masthead-text {
+    width: 200vh;
+    height: 165px;
+    margin-left: 18vh;
+    margin-top: 8vh;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
 
-display: flex;
-align-items: center;
-text-align: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
-.studios{
-  height: 100vh;
+.studios {
+    height: 100vh;
 }
 
-.about-us{
-  margin-top: 18vh;
-  height: 88vh;
+.about-us {
+    margin-top: 18vh;
+    height: 88vh;
 }
 
-.margin-header{
-  margin-top: 16vh;
+.margin-header {
+    margin-top: 16vh;
 }
 
-.margin-header-2{
-  margin-top: 16vh;
+.margin-header-2 {
+    margin-top: 16vh;
 }
 
-body::-webkit-scrollbar{
-  width: 10px;
-  color: #7B61FF;
+body::-webkit-scrollbar {
+    width: 10px;
+    color: #7b61ff;
 }
 
-body::-webkit-scrollbar-thumb{
-  background: rgba(119, 0, 255, 0.2);
-  border-radius: 10px;
-  border: 2px solid #7B61FF;
+body::-webkit-scrollbar-thumb {
+    background: rgba(119, 0, 255, 0.2);
+    border-radius: 10px;
+    border: 2px solid #7b61ff;
 }
 
 .text-header-2 {
-  position: relative;
-  width: 16vh;
-  height: 4.5vh;
-  left: 30vh;
-  font-family: 'CaviarDreams';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2.6vh;
-  line-height: 3.2vh;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #000000;
+    position: relative;
+    width: 16vh;
+    height: 4.5vh;
+    left: 30vh;
+    font-family: "CaviarDreams";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.6vh;
+    line-height: 3.2vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
 }
 
-.img-flor{
-  border-radius: 15px;
+.img-flor {
+    border-radius: 15px;
+}
+
+/* FAQ */
+.faq__style {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+}
+.faq__h4 {
+    font-family: "CaviarDreamsBold";
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+}
+.faq__header {
+    position: relative;
+    width: 25vh;
+    height: 7vh;
+    z-index: 1;
+    font-family: "CaviarDreams";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4vh;
+    line-height: 3.2vh;
+
+    color: #000000;
+}
+
+.faq__border-headers {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 0px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq__container {
+    margin-top: 18vh !important;
+    margin-left: 15vh;
+    background-color: rgba(0, 0, 0, 0.2);
 }
