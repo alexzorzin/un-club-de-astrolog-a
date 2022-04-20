@@ -23,19 +23,19 @@
         <nav class="main-nav">
             <div class="logo">
                 <img src="./img/logo-club-de-Astrologia.png" alt="Logo Club de Astrología">
-                <img src="./img/club-astrologia.png" alt="Club de Astrología">
+                <a href="./index.html"><img src="./img/club-astrologia.png" class="logo" alt="Club de Astrología" /></a>
             </div>
-            <div class="contacto">
+            <div class="contacto col">
 
                 <button type="button" class="btn contacto__btn" data-bs-toggle="modal" data-bs-target="#modalContacto"
                     data-bs-whatever="modalContacto">Contactanos</button>
             </div>
             <ul class="nav-links">
                 <li><a href="#">Blog</a></li>
-                <li><a href="#">Tienda</a></li>
+                <li><a href="https://clubdeastrologia.empretienda.com.ar/" target="_blank">Tienda</a></li>
                 <li><a href="./faq.html">FAQ</a></li>
-                <li><a href="#estudios">Estudios Personalizados</a></li>
-                <li><a href="#nosotras">Acerca de CDA</a></li>
+                <li><a href="./index.html#estudios">Estudios Personalizados</a></li>
+                <li><a href="./index.html#nosotras">Acerca de CDA</a></li>
 
             </ul>
             <div class="burger">
@@ -45,28 +45,34 @@
             </div>
         </nav>
     </header>
-    <!-- MAIN -->
-
-    <main>
+    
         <div class="masthead text-center text-white">
             <div class="masthead-content col-12">
                 <div class="container px-5">
-                    <img class="masthead-heading-home mb-0" src="./img/LOGO-FINAL-BYN-png8 2.png"></img> <br>
-                    <img class="masthead-subheading mb-0 w-50" src="./img/CA--- 1.png"></img> <br>
-                    <p class="masthead-text">Nuestro objeto de estudio son los astros <br>
+                    <img class="masthead-heading-home mb-0" src="./img/logo-club-de-Astrologia.png"></img> <br>
+                    <img class="masthead-subheading mb-0 w-50" src="./img/club-astrologia.png"></img> <br>
+
+                    <p class="masthead-text">
+                        Nuestro objeto de estudio son los astros<br><br>
                         la forma en que desde la Tierra experimentamos el cielo tratando de <br> encontrar su
                         correlación con los acontecimientos de la vida humana <br> como un espejo simbólico universal.
                     </p>
                 </div>
             </div>
+
         </div>
+
         </header>
 
+
+<!-- MAIN -->
+
+<main>
+
         <!-- ESTUDIOS PERSONALIZADOS -->
-
-        <section id="estudios" class="studies mt-5">
-
-            <div id="carouselExampleControlss" class="carousel slide margin-header mt-1" data-bs-ride="carousel">
+        <section id="estudios" class="studies">
+            <img width="8%" src="./img/invisible.png" alt="">
+            <div id="carouselExampleControlss" class="carousel slide margin-header mt-5" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <h3 class="text-headers border-headers">Estudios personalizados</h3>
@@ -84,7 +90,7 @@
                                             Los acontecimientos que el destino nos trae como aprendizaje.
                                             Características y desafíos del ciclo de vida presente.
                                             Misión de vida.</p>
-                                        <a href="#"><input class="btn btn-light rounded-pill" type="button"
+                                        <a href="https://clubdeastrologia.empretienda.com.ar/carta-natal/carta-natal" target="_blank"><input class="btn btn-light rounded-pill" type="button"
                                                 value="Ver en tienda"></a>
                                     </div>
                                 </div>
@@ -105,7 +111,7 @@
                                         <p class="text-light fs-5 mt-5 mb-5">Energías disponibles para el año de tu
                                             nuevo cumpleaños. Áreas de la vida influenciadas durante este periodo.
                                             Oportunidades y dificultades de consultas específicas.</p>
-                                        <a href="#"><input class="btn btn-light rounded-pill" type="button"
+                                        <a href="https://clubdeastrologia.empretienda.com.ar/revolucion-solar/revolucion-solar" target="_blank"><input class="btn btn-light rounded-pill" type="button"
                                                 value="Ver en tienda"></a>
                                     </div>
                                 </div>
@@ -126,7 +132,7 @@
                                         <p class="text-light fs-5 mt-5 mb-5">Espacios de escucha y orientación.
                                             Revisión regular de los movimientos conscientes e inconscientes.
                                             Comprender todo aquello que estamos atravesando.</p>
-                                        <a href="#"><input class="btn btn-light rounded-pill" type="button"
+                                        <a href="https://clubdeastrologia.empretienda.com.ar/acompanamiento-astrologico/acompanamiento-astrologico" target="_blank"><input class="btn btn-light rounded-pill" type="button"
                                                 value="Ver en tienda"></a>
                                     </div>
                                 </div>
@@ -148,10 +154,13 @@
 
         </section>
 
+        </div>
+
 
         <!-- NOSOTRAS -->
 
         <section id="nosotras" class="about-us">
+            <img width="16%" src="./img/invisible.png" alt="">
             <div id="carouselExampleControls" class="carousel slide margin-header-2" data-bs-ride="carousel">
                 <div class="carousel-inner">
 
@@ -305,9 +314,9 @@
         </div>
     </div>
 
-    
+
     <!-- FOOTER -->
-   
+
 
     <footer class="text-center text-lg-start text-light mt-3 pb-3">
         <!-- Section: Links  -->
@@ -328,24 +337,29 @@
                     <!-- Grid column -->
 
                     <!-- Grid column -->
-                    <div class="col mx-auto mb-4">
+                    <div class="footer col mx-auto mb-4 ">
                         <!-- Links -->
                         <p>
                             <a class="fa fa-envelope-o text-decoration-none text-light">
-                                clubdeastrologia.arg@gmail.com
+                                <span class="ms-2">clubdeastrologia.arg@gmail.com</span>
                             </a>
                         </p>
                         <p>
-                            <a href="./office.html" class="text-reset small fa fa-whatsapp"> WhatsApp</a>
+                            <a href="" class="text-reset small fa fa-whatsapp"> <span class="ms-2">WhatsApp</span></a>
                         </p>
                         <p>
-                            <a href="./antivirus.html" class="text-reset small fa fa-instagram"> @clubdeastrologia</a>
+                            <a href="https://www.instagram.com/clubdeastrologia/" target="_blank"
+                                class="text-reset small fa fa-instagram "> <span class="ms-2">
+                                    @clubdeastrologia</span> </a>
                         </p>
                         <p>
-                            <a href="./office.html" class="text-reset fa fa-shopping-cart small"> Tienda</a>
+                            <a href="https://clubdeastrologia.empretienda.com.ar/" target="_blank"
+                                class="text-reset fa fa-shopping-cart small">
+                                <span class="ms-2">Tienda</span></a>
                         </p>
                         <p>
-                            <a href="./antivirus.html" class="text-reset fa fa-question-circle-o small"> FAQ</a>
+                            <a href="./faq.html" class="text-reset fa fa-question-circle-o small">
+                                <span class="ms-2">FAQ</span></a>
                         </p>
                     </div>
 
