@@ -264,6 +264,7 @@ input:placeholder-shown {
 
 .masthead .masthead-content .masthead-heading-home {
   font-size: 4rem;
+  width: 20% !important;
 }
 
 .masthead .masthead-content .masthead-heading-av {
@@ -281,7 +282,7 @@ input:placeholder-shown {
 .masthead-text {
   width: 200vh;
   height: 165px;
-  margin-left: 18vh;
+  margin-left: 22vh;
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
@@ -290,14 +291,7 @@ input:placeholder-shown {
   align-items: center;
   text-align: center;
 }
-.masthead-title {
-  margin-top: 10vh;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 40px;
-  display: flex;
-  justify-content: center;
-}
+
 .studios {
   height: 100vh;
 }
