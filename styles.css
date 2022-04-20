@@ -22,17 +22,18 @@
 header {
   position: fixed;
   width: 100%;
-  
+
   z-index: 999 !important;
-  
+
 }
+
 .main-nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   color: #000;
-  min-height: 15vh;
+  min-height: 10.5vh;
   background: rgba(255, 255, 255, 0.9);
 }
 
@@ -44,21 +45,22 @@ header {
 .contacto__btn {
   padding-top: 7%;
   padding-bottom: 7%;
-  
+
   background-color: rgba(123, 97, 255, 0.27);
   border: rgba(123, 97, 255, 1) solid 3px;
   box-sizing: border-box;
   border-radius: 15px;
   font-family: 'CaviarDreamsBold';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
 
 
 
 
 }
+
 .nav-links {
   font-family: 'CaviarDreamsBold';
   font-weight: 700;
@@ -66,11 +68,11 @@ line-height: 20px;
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
-  font-size: 3vh;
+  font-size: 2.4vh;
   position: fixed;
-  top: 8.52vh;
+  top: 10.55vh;
   right: 0;
-  height: 92vh;
+  height: 557px;
   width: 15%;
   flex-direction: column;
   align-items: center;
@@ -87,11 +89,12 @@ line-height: 20px;
 
 }
 
-ol, ul {
+ol,
+ul {
   padding-left: 0px;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
@@ -148,11 +151,13 @@ a{
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
   }
 }
- /* MODAL */
+
+/* MODAL */
 .modal__h3 {
   font-weight: 700;
   font-family: 'CaviarDreamsBold';
 }
+
 .modal__boton {
   background: rgba(123, 97, 255, 0.57);
   border: 3px solid #7B61FF;
@@ -161,18 +166,20 @@ a{
   border-radius: 20px;
   color: black;
   font-family: 'CaviarDreamsBold';
- 
+
 }
 
 .modal-body {
-  background-color:rgba(255, 255, 255, 0.1) !important ;
+  background-color: rgba(255, 255, 255, 0.1) !important;
 }
+
 .modal__boton:hover {
   background-color: rgba(203, 170, 242, 255);
-  
+
 }
+
 .modal__input {
-  margin-top:2em ;
+  margin-top: 2em;
 }
 
 input:placeholder-shown {
@@ -182,20 +189,20 @@ input:placeholder-shown {
   background-color: rgba(203, 196, 242, 255);
 }
 
- .mensaje-enviado {
-  color:  black;
+.mensaje-enviado {
+  color: black;
   display: block;
 }
 
 .mensaje-enviar {
-  color:  #000;
+  color: #000;
   display: none;
 }
 
 .full-page {
-  background: linear-gradient(rgba(5, 7, 12, 0.459),rgba(5,7,12,0.459)),
-  url(./img/background/galaxy-scene.jpg);
-	background-size: cover;
+  background: linear-gradient(rgba(5, 7, 12, 0), rgba(5, 7, 12, 0)),
+    url(./img/background/FONDO.png);
+  background-size: cover;
 }
 
 
@@ -204,11 +211,10 @@ input:placeholder-shown {
   background-color: white;
   border-radius: 0px 0px 30px 30px;
   padding-left: 3vh;
-
 }
 
 .text-headers {
-  position: absolute;
+  position: relative;
   width: 33vh;
   height: 4.5vh;
   left: 30vh;
@@ -223,20 +229,115 @@ input:placeholder-shown {
   color: #000000;
 }
 
-bg-opacity{
-  background-color: rgb(0, 0, 0);
+.carousel-item {
+  height: 550px !important;
 }
 
-bg-opacity:before {
-    content:'';
-    position: absolute;
-          top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0,0,0,0.6);
-  }
+.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: 15rem;
+  padding-bottom: 10rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
 
-  .carousel-item{
-    height: 550px!important;
-  }
+.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+.masthead .masthead-content .masthead-heading {
+  font-size: 4rem;
+}
+
+.masthead .masthead-content .masthead-heading-home {
+  font-size: 4rem;
+}
+
+.masthead .masthead-content .masthead-heading-av {
+  font-size: 4rem;
+}
+
+.masthead .masthead-content .masthead-heading-of {
+  font-size: 4rem;
+}
+
+.masthead .masthead-content .masthead-subheading {
+  font-size: 2rem;
+}
+
+.masthead-text{
+width: 200vh;
+height: 165px;
+margin-left: 18vh;
+margin-top: 8vh;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 40px;
+
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.studios{
+  height: 100vh;
+}
+
+.about-us{
+  margin-top: 18vh;
+  height: 88vh;
+}
+
+.margin-header{
+  margin-top: 16vh;
+}
+
+.margin-header-2{
+  margin-top: 16vh;
+}
+
+body::-webkit-scrollbar{
+  width: 10px;
+  color: #7B61FF;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: rgba(119, 0, 255, 0.2);
+  border-radius: 10px;
+  border: 2px solid #7B61FF;
+}
+
+.text-header-2 {
+  position: relative;
+  width: 16vh;
+  height: 4.5vh;
+  left: 30vh;
+  font-family: 'CaviarDreams';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.6vh;
+  line-height: 3.2vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.img-flor{
+  border-radius: 15px;
+}
