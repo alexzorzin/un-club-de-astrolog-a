@@ -40,11 +40,13 @@ header {
   display: flex;
   height: 8.5vh;
 }
-
+.contacto {
+  text-align: right;
+}
 .contacto__btn {
-  padding-top: 7%;
-  padding-bottom: 7%;
-
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-right: 2em;
   background-color: rgba(123, 97, 255, 0.27);
   border: rgba(123, 97, 255, 1) solid 3px;
   box-sizing: border-box;
@@ -225,11 +227,10 @@ input:placeholder-shown {
   color: #000000;
 }
 
-.carousel-item{
+.carousel-item {
   height: 550px !important;
   background-color: rgba(0, 0, 0, 0.2);
 }
-
 
 .masthead {
   position: relative;
@@ -281,17 +282,22 @@ input:placeholder-shown {
   width: 200vh;
   height: 165px;
   margin-left: 18vh;
-  margin-top: 8vh;
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
   line-height: 40px;
-
   display: flex;
   align-items: center;
   text-align: center;
 }
-
+.masthead-title {
+  margin-top: 10vh;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+}
 .studios {
   height: 100vh;
 }
@@ -392,7 +398,7 @@ body::-webkit-scrollbar-thumb {
   bottom: 20px;
   right: 20px;
   background-color: #25d366;
-  color: #FFF;
+  color: #fff;
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
@@ -407,14 +413,15 @@ body::-webkit-scrollbar-thumb {
   background-color: #fff;
 }
 
-footer{
+footer {
   background: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
 }
 
-.footer-text{
+.footer-text {
   z-index: 100;
 }
 
-.footer-logo{
+.footer-logo {
   width: 176px;
 }
