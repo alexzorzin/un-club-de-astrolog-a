@@ -8,6 +8,12 @@
   font-family: "CaviarDreams";
 }
 
+html,
+body {
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+}
+
 @font-face {
   font-family: CaviarDreams;
   src: url(./fonts/CaviarDreams.ttf);
@@ -264,7 +270,7 @@ input:placeholder-shown {
 
 .masthead .masthead-content .masthead-heading-home {
   font-size: 4rem;
-  width: 20% !important;
+  width: 20%;
 }
 
 .masthead .masthead-content .masthead-heading-av {
@@ -424,4 +430,115 @@ footer {
 
 .footer-logo {
   width: 176px;
+}
+
+@media (min-width: 601px) {
+  .masthead .masthead {
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+  }
+  .masthead .masthead .masthead-content .masthead-heading {
+    font-size: 6rem;
+  }
+  .masthead .masthead .masthead-content .masthead-heading-home {
+    font-size: 6rem;
+  }
+  .masthead .masthead .masthead-content .masthead-heading-av {
+    font-size: 6rem;
+  }
+  .masthead .masthead .masthead-content .masthead-heading-of {
+    font-size: 6rem;
+  }
+  .masthead .masthead .masthead-content .masthead-subheading {
+    font-size: 4rem;
+  }
+  .contacto-mobile{
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .masthead {
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+  }
+  .masthead .masthead-content .masthead-heading {
+    font-size: 3rem;
+    margin-left: 0rem !important;
+    margin-right: 0 !important;
+  }
+  .masthead .masthead-content .masthead-heading-home {
+    margin-left: 0.6vh !important;
+    margin-right: 0 !important;
+  }
+  .masthead .masthead-content .masthead-heading-av {
+    font-size: 3rem;
+    margin-left: 0rem !important;
+    margin-right: 0 !important;
+  }
+  .masthead .masthead-content .masthead-heading-of {
+    font-size: 3rem;
+    margin-left: 0rem !important;
+    margin-right: 0 !important;
+  }
+  .masthead .masthead-content .masthead-subheading {
+    font-size: 1rem;
+  }
+  .masthead-subheading-title{
+    font-size: 1.6rem;
+  }
+  .masthead-heading-img{
+    width: 50%!important;
+    margin-left: 1vh;
+  }
+  .logo-mobile{
+    margin-left: -5.5vh;    
+  }
+  .footer-logo{
+    margin-left: -12vh;
+  }
+  .footer-title{
+    margin-right: 14vh;
+  }
+  main{
+    overflow: hidden;
+  }
+  header{
+    overflow: hidden;
+  }
+  .carousel-height{
+    height: 160vh!important;
+  }
+  .carousel-height-2{
+    height: 190vh!important;
+  }
+  .about-us{
+    margin-top: 80vh;
+    height: 200vh;
+  }
+  .border-headers{
+    padding-left: 2.2vh;
+    padding-bottom: 7%;
+    padding-top: 7%;
+  }
+  .text-headers{
+    left: 2vh;
+    height: 6vh;
+  }
+  .text-header-2{
+    left: 2vh;
+  }
+  .contacto-pc{
+    display: none;
+  }
+  .burger{
+    position: absolute;
+    right: -2vh;
+  }
+  .nav-links{
+    top: 10.5vh;
+  }
+  .modal{
+    top: 9vh;
+  }
 }
