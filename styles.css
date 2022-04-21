@@ -491,7 +491,16 @@ footer {
     width: 50%!important;
     margin-left: 1vh;
   }
+  .logo{
+    position: absolute;
+    left: 0;
+  }
+  .widthLogo{
+    width: 11vh !important;
+  }
   .logo-mobile{
+    position: absolute;
+    left: 11vh;
     margin-left: -5.5vh;    
   }
   .footer-logo{
