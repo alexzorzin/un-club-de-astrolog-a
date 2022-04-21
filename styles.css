@@ -276,7 +276,13 @@ input:placeholder-shown {
 }
 
 .masthead .masthead-content .masthead-subheading {
-  font-size: 2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.masthead-subheading-title{
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
 .masthead-text {
