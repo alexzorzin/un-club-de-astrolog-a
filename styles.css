@@ -965,18 +965,18 @@ footer {
   }
 }
 
-@media (min-width:1000px) and (max-width:1200px) {
+@media (min-width:1000px) and (max-width:1500px) {
   .nav-links {
     width: 25vh;
     height: fit-content;
   }
 
   .carousel-height {
-    height: 110vh!important ;
+    height: 105vh!important ;
   }
 
   .carousel-height-2 {
-    height: 120vh!important ;
+    height: 115vh!important ;
   }
 
   .about-us {
