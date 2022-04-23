@@ -1085,158 +1085,6 @@ footer {
     }
 }
 
-@media (min-width: 600px) and (orientation:landscape) {
-    .masthead {
-      padding-top: calc(10rem + 55px);
-      padding-bottom: 10rem;
-    }
-  
-    .masthead .masthead-content .masthead-heading {
-      font-size: 3rem;
-      margin-left: 0rem !important;
-      margin-right: 0 !important;
-    }
-  
-    .masthead .masthead-content .masthead-heading-home {
-      margin-left: 0 !important;
-      margin-right: 0 !important;
-    }
-  
-    .masthead .masthead-content .masthead-heading-av {
-      font-size: 3rem;
-      margin-left: 0rem !important;
-      margin-right: 0 !important;
-    }
-  
-    .masthead .masthead-content .masthead-heading-of {
-      font-size: 3rem;
-      margin-left: 0rem !important;
-      margin-right: 0 !important;
-    }
-  
-    .masthead .masthead-content .masthead-subheading {
-      font-size: 1rem;
-    }
-  
-    .masthead-subheading-title {
-      font-size: 1.6rem;
-    }
-  
-    .masthead-heading-img {
-      width: 100% !important;
-    }
-  
-    .logo {
-      position: absolute;
-      left: 0;
-    }
-  
-    .widthLogo {
-      display: none;
-      width: 11vh !important;
-  }
-  
-    .logo-mobile {
-      position: absolute;
-      left: 11vh;
-      margin-left: -5.5vh;
-    }
-  
-    main {
-      overflow: hidden;
-    }
-  
-    header {
-      overflow: hidden;
-    }
-  
-    .carousel-height {
-      height: 200vh !important;
-    }
-  
-    .carousel-height-2 {
-      height: 250vh !important;
-    }
-  
-    .about-us {
-      margin-top: 80vh;
-      height: fit-content;
-    }
-  
-    .text-headers {
-      left: 2vh;
-      height: 6vh;
-    }
-  
-    .text-header-2 {
-      left: 2vh;
-    }
-  
-    .contacto-pc {
-      display: initial;
-      margin-right: 4em;
-    }
-
-    .contacto__btn{
-        
-        line-height: 15px;
-        font-size: 10px;
-    }
-
-    .contacto-mobile{
-        display: none;
-    }
-  
-    .burger {
-      position: absolute;
-      right: -2vh;
-    }
-  
-    .nav-links {
-      top: 10.5vh;
-    }
-  
-    .modal {
-      top: 9vh;
-    }
-  
-    .faq__style {
-      background-color: rgba(0, 0, 0, 0.5);
-      height: fit-content;
-    }
-  
-    .faq__h4 {
-      font-family: "CaviarDreamsBold";
-  
-      font-style: normal;
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 41px;
-      display: flex;
-      align-items: center;
-    }
-  
-    .faq__header {
-      position: relative;
-      width: 16vh;
-      height: 3.5vh;
-      left: 30vh;
-      font-family: "openSansLight";
-      font-style: normal;
-      font-weight: 700;
-      font-size: 2.6vh;
-      line-height: 3.2vh;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      color: #000000;
-    }
-  
-    .br-mobile{
-        display: none;
-    }
-  
-  }
 
 @media (min-width: 1000px) and (max-width: 1500px) {
     .nav-links {
@@ -1409,6 +1257,163 @@ footer {
   }
 }
 
+@media (max-width: 1010px) and (orientation:landscape) {
+    .masthead {
+      padding-top: calc(10rem + 55px);
+      padding-bottom: 10rem;
+    }
+  
+    .masthead .masthead-content .masthead-heading {
+      font-size: 3rem;
+      margin-left: 0rem !important;
+      margin-right: 0 !important;
+    }
+  
+    .masthead .masthead-content .masthead-heading-home {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+  
+    .masthead .masthead-content .masthead-heading-av {
+      font-size: 3rem;
+      margin-left: 0rem !important;
+      margin-right: 0 !important;
+    }
+  
+    .masthead .masthead-content .masthead-heading-of {
+      font-size: 3rem;
+      margin-left: 0rem !important;
+      margin-right: 0 !important;
+    }
+  
+    .masthead .masthead-content .masthead-subheading {
+      font-size: 1rem;
+    }
+  
+    .masthead-subheading-title {
+      font-size: 1.6rem;
+    }
+  
+    .masthead-heading-img {
+      width: 100% !important;
+    }
+  
+    .logo {
+      position: absolute;
+      left: 0;
+    }
+  
+    .widthLogo {
+      display: none;
+      width: 11vh !important;
+  }
+  
+    .logo-mobile {
+      position: absolute;
+      left: 11vh;
+      margin-left: -5.5vh;
+    }
+  
+    main {
+      overflow: hidden;
+    }
+  
+    header {
+      overflow: hidden;
+    }
+  
+    .carousel-height {
+      height: 220vh !important;
+    }
+  
+    .carousel-height-2 {
+      height: 260vh !important;
+    }
+  
+    .about-us {
+      margin-top: 80vh;
+      height: fit-content;
+    }
+  
+    .text-headers {
+      left: 2vh;
+      height: 6vh;
+    }
+  
+    .text-header-2 {
+      left: 2vh;
+    }
+  
+    .contacto-pc {
+      display: initial;
+      margin-right: 4em;
+    }
+
+    .contacto__btn{
+        
+        line-height: 15px;
+        font-size: 10px;
+    }
+
+    .contacto-mobile{
+        display: none;
+    }
+  
+    .burger {
+      position: absolute;
+      right: -2vh;
+    }
+  
+    .nav-links {
+      top: 10.5vh;
+    }
+  
+    .modal {
+      top: 9vh;
+    }
+  
+    .faq__style {
+      background-color: rgba(0, 0, 0, 0.5);
+      height: fit-content;
+    }
+  
+    .faq__h4 {
+      font-family: "CaviarDreamsBold";
+  
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 41px;
+      display: flex;
+      align-items: center;
+    }
+  
+    .faq__header {
+      position: relative;
+      width: 16vh;
+      height: 3.5vh;
+      left: 30vh;
+      font-family: "openSansLight";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 2.6vh;
+      line-height: 3.2vh;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #000000;
+    }
+  
+    .br-mobile{
+        display: none;
+    }
+
+    .img-fluid{
+        width: 40%;
+    }
+  
+  }
+
 @media (min-width: 700px) and (max-width: 800px) {
     .contacto-pc {
         display: none;
@@ -1490,6 +1495,8 @@ footer {
     .carousel-height {
         height: 115vh !important;
     }
+    
+    
 }
 
 @media (min-height: 810px) and (max-height: 820px) {
