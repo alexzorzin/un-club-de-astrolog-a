@@ -551,8 +551,9 @@ footer {
   }
 
   .widthLogo {
+    display: none;
     width: 11vh !important;
-  }
+}
 
   .logo-mobile {
     position: absolute;
