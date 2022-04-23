@@ -1006,12 +1006,6 @@ footer {
         height: fit-content;
     }
 
-    .border-headers {
-        padding-left: 2.2vh;
-        padding-bottom: 7%;
-        padding-top: 7%;
-    }
-
     .text-headers {
         left: 2vh;
         height: 6vh;
