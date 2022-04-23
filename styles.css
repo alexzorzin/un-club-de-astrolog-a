@@ -230,7 +230,7 @@ input:placeholder-shown {
 
 .text-headers {
   position: relative;
-  width: 33vh;
+  width: 33.5vh;
   height: 4.5vh;
   left: 30vh;
   font-family: "CaviarDreams";
@@ -345,7 +345,7 @@ body::-webkit-scrollbar-thumb {
 .text-header-2 {
   position: relative;
   width: 16vh;
-  height: 4.5vh;
+  height: 3.5vh;
   left: 30vh;
   font-family: "CaviarDreams";
   font-style: normal;
