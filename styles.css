@@ -495,7 +495,6 @@ footer {
   }
 }
 
-
 .carousel-height {
   height: 70vh !important;
 }
@@ -762,14 +761,6 @@ footer {
     .contacto-mobile {
         display: none;
     }
-}
-
-.carousel-height {
-    height: 70vh !important;
-}
-
-.carousel-height-2 {
-    height: 75vh !important;
 }
 
 @media (min-width: 380px) and (max-width: 500px) {
