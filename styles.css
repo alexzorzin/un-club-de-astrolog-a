@@ -476,7 +476,25 @@ footer {
   .contacto-mobile {
     display: none;
   }
+  .padding-end{
+    padding-top: 3rem !important;
+    padding-right: 8rem !important;
+    padding-bottom: 3rem !important;
+    padding-left: 3rem !important;
+  }
+
+  .padding-ends{
+    padding-top: 1.5rem !important;
+    padding-right: 8rem !important;
+    padding-bottom: 1.5rem !important;
+    padding-left: 1.5rem !important;
+  }
+
+  .padding-start{
+    margin-left: 10rem !important;
+  }
 }
+
 
 .carousel-height {
   height: 70vh !important;
@@ -1058,6 +1076,10 @@ footer {
 
   .faq__container {
     margin-left: auto;
+  }
+
+  .masthead-heading-img{
+    width: 100%!important;
   }
 }
 
