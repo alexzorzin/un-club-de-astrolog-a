@@ -318,6 +318,10 @@ input:placeholder-shown {
     height: fit-content;
 }
 
+.widthLogo{
+    display: none;
+}
+
 .about-us {
     height: fit-content;
     margin-bottom: 10vh;
@@ -558,7 +562,9 @@ footer {
 
   .logo {
     position: absolute;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .widthLogo {
@@ -566,11 +572,6 @@ footer {
     width: 11vh !important;
 }
 
-  .logo-mobile {
-    position: absolute;
-    left: 11vh;
-    margin-left: -5.5vh;
-  }
 
   main {
     overflow: hidden;
@@ -819,18 +820,15 @@ footer {
 
     .logo {
         position: absolute;
-        left: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         width: 36vh;
     }
 
     .widthLogo {
         width: 11vh !important;
-    }
-
-    .logo-mobile {
-        position: absolute;
-        left: 11vh;
-        margin-left: -5.5vh;
+        display: none;
     }
 
     main {
@@ -973,19 +971,14 @@ footer {
 
     .logo {
         position: absolute;
-        left: 0;
-        width: 36vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     }
 
     .widthLogo {
         display: none;
         width: 11vh !important;
-    }
-
-    .logo-mobile {
-        position: absolute;
-        left: 11vh;
-        margin-left: -5.5vh;
     }
 
     main {
@@ -1299,20 +1292,16 @@ footer {
     }
   
     .logo {
-      position: absolute;
-      left: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
   
     .widthLogo {
       display: none;
       width: 11vh !important;
   }
-  
-    .logo-mobile {
-      position: absolute;
-      left: 11vh;
-      margin-left: -5.5vh;
-    }
   
     main {
       overflow: hidden;
@@ -1458,8 +1447,11 @@ footer {
         /* width: 40.5vh !important; */
     }
 
-    .logo-mobile {
-        width: 250%;
+    .logo{
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
     }
 
     .widthLogo {
