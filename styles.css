@@ -476,23 +476,7 @@ footer {
   .contacto-mobile {
     display: none;
   }
-  .padding-end{
-    padding-top: 3rem !important;
-    padding-right: 8rem !important;
-    padding-bottom: 3rem !important;
-    padding-left: 3rem !important;
-  }
 
-  .padding-ends{
-    padding-top: 1.5rem !important;
-    padding-right: 8rem !important;
-    padding-bottom: 1.5rem !important;
-    padding-left: 1.5rem !important;
-  }
-
-  .padding-start{
-    margin-left: 10rem !important;
-  }
 }
 
 .carousel-height {
@@ -501,6 +485,34 @@ footer {
 
 .carousel-height-2 {
   height: 75vh !important;
+}
+
+@media (min-width:900px){
+  .padding-end{
+    padding-top: 5rem !important;
+    padding-right: 8rem !important;
+    padding-bottom: 3rem !important;
+    padding-left: 3rem !important;
+  }
+
+  .padding-ends{
+    padding-right: 8rem !important;
+    padding-bottom: 1.5rem !important;
+    padding-left: 1.5rem !important;
+  }
+  .p-5{
+    padding-left: 3rem!important;
+    padding-top: 3rem !important;
+    padding-right: 3rem !important;
+    padding-bottom: 3rem !important;
+    
+  }
+  .padding-start{
+    margin-left:10rem!important ;
+  }
+  .padding-starts{
+    margin-left:10rem!important ;
+  }
 }
 
 @media (max-width: 600px) {
@@ -569,11 +581,11 @@ footer {
   }
 
   .carousel-height {
-    height: 160vh !important;
+    height: 120vh !important;
   }
 
   .carousel-height-2 {
-    height: 190vh !important;
+    height: 150vh !important;
   }
 
   .about-us {
@@ -638,11 +650,9 @@ footer {
     text-align: center;
     color: #000000;
   }
+
 }
 
-.img-flor {
-    border-radius: 15px;
-}
 
 /* FAQ */
 .faq__style {
@@ -829,11 +839,11 @@ footer {
     }
 
     .carousel-height {
-        height: 132vh !important;
+        height: 92vh !important;
     }
 
     .carousel-height-2 {
-        height: 172vh !important;
+        height: 115vh !important;
     }
 
     .about-us {
@@ -984,11 +994,11 @@ footer {
     }
 
     .carousel-height {
-        height: 140vh !important;
+        height: 120vh !important;
     }
 
     .carousel-height-2 {
-        height: 184vh !important;
+        height: 140vh !important;
     }
 
     .about-us {
@@ -1085,11 +1095,11 @@ footer {
     }
 
     .carousel-height {
-        height: 105vh !important ;
+        height: 120vh !important ;
     }
 
     .carousel-height-2 {
-        height: 115vh !important ;
+        height: 145vh !important ;
     }
 
     .about-us {
@@ -1111,6 +1121,39 @@ footer {
     }
 }
 
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .nav-links {
+      width: 25vh;
+      height: fit-content;
+  }
+
+  .carousel-height {
+      height: 85vh !important ;
+  }
+
+  .carousel-height-2 {
+      height: 90vh !important ;
+  }
+
+  .about-us {
+      margin-top: 10vh;
+      height: fit-content;
+  }
+
+  .text-headers {
+      left: 2vh;
+      height: 6vh;
+  }
+
+  .text-header-2 {
+      left: 2vh;
+  }
+
+  .faq__container {
+      margin-left: auto;
+  }
+}
+
 @media (min-height: 1000px) and (max-height: 1400px) {
     .nav-links {
         width: 25vh;
@@ -1118,11 +1161,11 @@ footer {
     }
 
     .carousel-height {
-        height: 50vh !important;
+        height: 60vh !important;
     }
 
     .carousel-height-2 {
-        height: 60vh !important;
+        height: 70vh !important;
     }
 
     .about-us {
@@ -1197,11 +1240,23 @@ footer {
         width: 40% !important;
     }
     .carousel-height {
-        height: 90vh !important;
+        height: 70vh !important;
     }
     .carousel-height-2 {
-        height: 110vh !important;
+        height:75vh !important;
     }
+}
+
+@media (min-width: 600px) and (max-width: 850px) and (max-height:860px) {
+  .img-fluid {
+      width: 40% !important;
+  }
+  .carousel-height {
+      height: 110vh !important;
+  }
+  .carousel-height-2 {
+      height:125vh !important;
+  }
 }
 
 @media (min-width: 700px) and (max-width: 800px) {
@@ -1231,10 +1286,14 @@ footer {
     }
 
     .carousel-height {
-        height: 170vh !important;
+        height: 130vh !important;
     }
     .carousel-height-2 {
-        height: 230vh !important;
+        height: 170vh !important;
+    }
+
+    .fa{
+      font-size: small;
     }
 }
 
@@ -1258,10 +1317,14 @@ footer {
     }
 
     .carousel-height {
-        height: 180vh !important;
+        height: 130vh !important;
     }
     .carousel-height-2 {
-        height: 300vh !important;
+        height: 200vh !important;
+    }
+
+    .fa{
+      font-size: small!important;
     }
 }
 
