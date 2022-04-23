@@ -524,7 +524,7 @@ footer {
     }
 
     .masthead-heading-img {
-        width: 100% !important;
+        width: 40vh !important;
     }
 
     .logo {
@@ -534,6 +534,7 @@ footer {
 
     .widthLogo {
         width: 11vh !important;
+        display: none;
     }
 
     .logo-mobile {
@@ -841,6 +842,7 @@ footer {
     }
 
     .widthLogo {
+        display: none;
         width: 11vh !important;
     }
 
@@ -1122,6 +1124,7 @@ footer {
 
     .widthLogo {
         margin-right: 2vh;
+        display: none;
     }
 
     .nav-links {
