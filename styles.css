@@ -491,7 +491,7 @@ footer {
   height: 75vh !important;
 }
 
-@media (min-width:900px){
+@media (min-width:950px){
   .padding-end{
     padding-top: 5rem !important;
     padding-right: 8rem !important;
@@ -511,11 +511,8 @@ footer {
     padding-bottom: 3rem !important;
     
   }
-  .padding-start{
-    margin-left:10rem!important ;
-  }
-  .padding-starts{
-    margin-left:10rem!important ;
+  .img-fluid{
+      margin-left: 10rem!important;
   }
 }
 
