@@ -512,7 +512,12 @@ footer {
     
   }
   .img-fluid{
-      margin-left: 10rem!important;
+      margin-left: 5rem!important;
+  }
+
+  .img3{
+    position: relative;
+    bottom: 4vh;
   }
 }
 
@@ -1237,11 +1242,11 @@ footer {
     }
 
     .carousel-height {
-        height: 120vh !important ;
+        height: 105vh !important ;
     }
 
     .carousel-height-2 {
-        height: 145vh !important ;
+        height: 120vh !important ;
     }
 
     .about-us {
@@ -1541,10 +1546,6 @@ footer {
       align-items: center;
       text-align: center;
       color: #000000;
-    }
-  
-    .br-mobile{
-        display: none;
     }
 
     .img-fluid{
